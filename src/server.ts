@@ -8,24 +8,11 @@ app.use(cors());
 export const router = new Router();
 import './routes';
 
-// const API_URL = 'http://localhost:3000';
-
 export const PROTOCOL = 'http';
 export const HOST = '0.0.0.0';
 export const PORT = parseInt(process.env.PORT!, 10) || 8888;
 
-// const options:cors.CorsOptions = {
-//   allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept", "X-Access-Token"],
-//   credentials: true,
-//   methods: "GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE",
-//   origin: API_URL,
-//   preflightContinue: false
-// };
-
-// router.use(cors(options));
 app.use(router.routes());
-//enable pre-flight
-// router.options("*", cors(options));
 app.use(koaBody());
 app.use(router.allowedMethods());
 

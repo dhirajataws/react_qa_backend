@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6520c88-2d02-4d03-be99-90e06808124e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/carOfWeek.ts" afterPath="$PROJECT_DIR$/data/carOfWeek.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server.ts" afterPath="$PROJECT_DIR$/src/server.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,12 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="server.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="223">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,6 +40,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/data/carOfWeek.ts" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/server.ts" />
       </list>
     </option>
   </component>
@@ -87,6 +88,11 @@
               <item name="react_qa_backend" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react_qa_backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_qa_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -133,12 +139,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515563411242</updated>
-      <workItem from="1515563412464" duration="562000" />
+      <workItem from="1515563412464" duration="1180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="562000" />
+    <option name="totallyTimeSpent" value="1180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="329" y="43" width="859" height="807" extended-state="0" />
@@ -212,6 +218,16 @@
         <state relative-caret-position="78">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
